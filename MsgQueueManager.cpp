@@ -148,3 +148,20 @@ CMsgQueueManager::RemoveMsgQueue(int msg_id)
 //
 //// recv fifo(begin to receive data)
 // delete fifo
+//
+//
+//
+//char const *src_path = argv[1];
+//char const *des_path = argv[2];
+//int fd,fd2;
+//fd = open(src_path,O_RDWR|O_CREAT);
+//fd2 = open(des_path,O_RDWR|O_CREAT);
+//while(len = read(fd,buff,1024))
+//{
+//write(fd2,buff,len);
+//}
+//return 0;
+//
+
+// sendfile
+// https://github.com/onaple/FileTransfer
